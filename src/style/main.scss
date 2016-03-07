@@ -1,3 +1,16 @@
-body{
-  background: tomato
+*{
+  margin: 0;
+  padding: 0;
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .app-footer{
+      background: red;
+      height: 70px;
+      flex-shrink: 0
+    }
+  }
+
 }
